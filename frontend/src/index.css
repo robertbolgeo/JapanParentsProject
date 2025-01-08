@@ -1,3 +1,9 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+/* styles.css */
+
+.btn-custom {
+ @apply rounded-md border border-transparent px-3 py-2 text-white font-medium bg-primary-900 hover:border-white transition-colors duration-300 mx-auto transition-transform duration-300 transform hover:scale-105;
+}
